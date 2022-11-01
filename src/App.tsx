@@ -1,11 +1,13 @@
 import React from 'react';
-import Init from './components/init';
+import Form_index from "./components/Formulario/form_index";
+import List from "./components/List/List_index";
 
 function App() {
 
   return (
     <div className="App">
-      <Init />
+        <Form_index />
+        <List/>
     </div>
   );
 }
